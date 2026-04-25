@@ -1,0 +1,28 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<Button
+ android:id="@+id/btnHistory"
+ android:text="View History"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"/>
+
+<Button
+ android:id="@+id/btnPrivacy"
+ android:text="Privacy Policy"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"/>
+
+<com.google.android.gms.ads.AdView
+ android:id="@+id/adView"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ ads:adSize="BANNER"
+ ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+</LinearLayout>
