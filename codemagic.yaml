@@ -1,0 +1,11 @@
+
+workflows:
+ android-workflow:
+  name: Final Launch Build
+  instance_type: linux_x2
+  scripts:
+   - echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+   - ./gradlew bundleRelease
+  artifacts:
+   - app/build/outputs/**/*.aab
+   - app/build/outputs/**/*.apk
