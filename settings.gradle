@@ -1,2 +1,2 @@
-rootProject.name='QuickClipboardFinalLaunch'
+rootProject.name='Keyboard-manager'
 include ':app'
