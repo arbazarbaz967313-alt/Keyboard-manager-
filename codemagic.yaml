@@ -9,8 +9,6 @@ workflows:
       - chmod +x gradlew
       - ./gradlew clean
       - ./gradlew assembleDebug
-      - ./gradlew bundleRelease
 
     artifacts:
       - app/build/outputs/**/*.apk
-      - app/build/outputs/**/*.aab
